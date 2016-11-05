@@ -6,7 +6,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>hoge</h1>
-        <App2 />
       </div>
     );
   }
