@@ -61,6 +61,7 @@ npm start
 - Reactを作成された仮想的なページをもとにDOMとの差分を計算し、更新内容をDOMに反映させる
 ```
 
+![画像](http://www.funnyant.com/wp-content/uploads/2014/07/reactjs-virtual-dom.png)
 - [参考](http://www.funnyant.com/reactjs-what-is-it/#Virtual DOM)
 
 #### その他renderのルール
