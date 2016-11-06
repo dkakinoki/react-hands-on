@@ -239,7 +239,10 @@ class CountryDropDown extends React.Component {
  - inputタグはjsxでは、`<input></input>`ではなく、`<input />`と書く必要があります
  
  
-```わからない人向けの回答例
+```
+// わからない人向けの回答例
+// 自分で実装したい人は見ないでください
+
 import React from 'react';
 
 class App2 extends React.Component {
