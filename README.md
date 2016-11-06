@@ -166,8 +166,9 @@ class InquiryFormView extends React.Component {
 - App2.jsを追加して、h1の表示部分をそちらで実装しましょう。
 
 ### props
-- 単一方向のデータフローなので、親要素から子要素に渡すもの
+#### propsとは
 - propsはコンポーネントにプロパティとして渡される
+- 単一方向のデータフローなので、基本的に親要素から子要素に渡される
 - `this.props` でアクセス可能
 - 基本、read-only(コンポーネント内で変更しない)
 
@@ -181,10 +182,13 @@ class InquiryFormView extends React.Component {
 App2.jsにタイトルをpropsで渡して表示させましょう
 
 ### state
+#### stateとは
 - Reactは内部状態(state)をもつ
 - stateが更新されると、DOMも更新される(renderが実行される)
 - stateの更新は、this.setStateで更新する
-- propsで渡ってきたプロパティをstateで管理する場合には、constructorでthis.stateで入れてあげるとよい
+- `this.state` でアクセス可能
+- propsで渡ってきたプロパティをstateで管理する場合には、constructorでthis.stateに入れてあげるとよい
+
 
 ```
 // selectタグが変更されると、stateのselectedValueが更新される
