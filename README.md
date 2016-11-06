@@ -62,7 +62,7 @@ npm start
 ```
 
 ![画像](http://www.funnyant.com/wp-content/uploads/2014/07/reactjs-virtual-dom.png)
-- [参考](http://www.funnyant.com/reactjs-what-is-it/#Virtual DOM)
+参考:http://www.funnyant.com/reactjs-what-is-it/#Virtual
 
 #### その他renderのルール
 - 戻り値として、null,false,または、Reactコンポーネントを返す
